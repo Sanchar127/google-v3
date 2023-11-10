@@ -1,7 +1,6 @@
 import React from "react";
 import { getProviders, signIn } from "next-auth/react";
 import Header from "@/components/Header";
-import Image from "next/image";
 
 const Signin = ({ providers }) => {
   return (
@@ -10,7 +9,7 @@ const Signin = ({ providers }) => {
       <div className="mt-40">
         {Object.values(providers).map((provider) => (
           <div key={provider.name} className="flex flex-col items-center">
-            <Image
+            <img
               className="w-52 object-cover "
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
               alt="googlelogo"
