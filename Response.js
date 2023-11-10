@@ -8,28 +8,30 @@ export default {
   queries: {
     request: [
       {
-        title: "Google Custom Search - sanchar",
-        totalResults: "5500000",
-        searchTerms: "sanchar",
+        title: "Google Custom Search - tailwindcss",
+        totalResults: "105000000",
+        searchTerms: "tailwindcss",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
         cx: "f0fcc45ce7b93438b",
+        searchType: "image",
       },
     ],
     nextPage: [
       {
-        title: "Google Custom Search - sanchar",
-        totalResults: "5500000",
-        searchTerms: "sanchar",
+        title: "Google Custom Search - tailwindcss",
+        totalResults: "105000000",
+        searchTerms: "tailwindcss",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
         cx: "f0fcc45ce7b93438b",
+        searchType: "image",
       },
     ],
   },
@@ -37,384 +39,247 @@ export default {
     title: "go-v3",
   },
   searchInformation: {
-    searchTime: 0.223205,
-    formattedSearchTime: "0.22",
-    totalResults: "5500000",
-    formattedTotalResults: "5,500,000",
+    searchTime: 0.146404,
+    formattedSearchTime: "0.15",
+    totalResults: "105000000",
+    formattedTotalResults: "105,000,000",
+  },
+  spelling: {
+    correctedQuery: "tailwind css",
+    htmlCorrectedQuery: "<b><i>tailwind css</i></b>",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "Sanchar Saathi",
-      htmlTitle: "<b>Sanchar</b> Saathi",
-      link: "https://www.sancharsaathi.gov.in/",
-      displayLink: "www.sancharsaathi.gov.in",
+      title:
+        "Tailwind CSS - Rapidly build modern websites without ever leaving ...",
+      htmlTitle:
+        "<b>Tailwind CSS</b> - Rapidly build modern websites without ever leaving ...",
+      link: "https://tailwindcss.com/_next/static/media/social-card-large.a6e71726.jpg",
+      displayLink: "tailwindcss.com",
       snippet:
-        "What is Sanchar Saathi? Sanchar Saathi portal is a citizen centric initiative of Department of Telecommunications to empower mobile subscribers, strengthen ...",
+        "Tailwind CSS - Rapidly build modern websites without ever leaving ...",
       htmlSnippet:
-        "What is <b>Sanchar</b> Saathi? <b>Sanchar</b> Saathi portal is a citizen centric initiative of Department of Telecommunications to empower mobile subscribers, strengthen&nbsp;...",
-      formattedUrl: "https://www.sancharsaathi.gov.in/",
-      htmlFormattedUrl: "https://www.<b>sanchar</b>saathi.gov.in/",
-      pagemap: {
-        metatags: [
-          {
-            viewport: "width=device-width, initial-scale=1",
-          },
-        ],
+        "<b>Tailwind CSS</b> - Rapidly build modern websites without ever leaving ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://tailwindcss.com/",
+        height: 1280,
+        width: 2560,
+        byteSize: 95493,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSWjBPi3in9Al2chAj97alz3FcGZw1xI1aMoK44ro43XHHMYZxk7bMQ&s",
+        thumbnailHeight: 75,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: "customsearch#result",
-      title: "Sanchar e-Paper Main Edition",
-      htmlTitle: "<b>Sanchar</b> e-Paper Main Edition",
-      link: "http://www.esanchar.co.in/",
-      displayLink: "www.esanchar.co.in",
-      snippet: "Sanchar e-Paper Main Edition.",
-      htmlSnippet: "<b>Sanchar</b> e-Paper Main Edition.",
-      cacheId: "YYo8HfeFzJcJ",
-      formattedUrl: "www.esanchar.co.in/",
-      htmlFormattedUrl: "www.e<b>sanchar</b>.co.in/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQv_X347-JzjnzvYDzl-4oxdivq-jdKvEbw_SSxJ1RN3rUTueT256KfdP3_",
-            width: "175",
-            height: "288",
-          },
-        ],
-        metatags: [
-          {
-            "fb:app_id": "236448743096783",
-            viewport: "width=device-width, initial-scale=1",
-            news_keywords: "Sanchar e-Paper Main Edition",
-          },
-        ],
-        cse_image: [
-          {
-            src: "http://www.esanchar.co.in/epaperimages//09112023//09112023-md-hr-1.jpg",
-          },
-        ],
+      title: "mwop.net :: TailwindCSS Tips",
+      htmlTitle: "mwop.net :: <b>TailwindCSS</b> Tips",
+      link: "https://mwop.net/images/tailwindcss.svg",
+      displayLink: "mwop.net",
+      snippet: "mwop.net :: TailwindCSS Tips",
+      htmlSnippet: "mwop.net :: <b>TailwindCSS</b> Tips",
+      mime: "image/svg+xml",
+      fileFormat: "image/svg+xml",
+      image: {
+        contextLink: "https://mwop.net/blog/2022-04-26-tailwind.html",
+        height: 489,
+        width: 800,
+        byteSize: 771,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmFApjHOUzD3pa48DFV---bxt8PMZyKMi7IxKyql37QptcieczbYscTQ&s",
+        thumbnailHeight: 87,
+        thumbnailWidth: 143,
       },
     },
     {
       kind: "customsearch#result",
-      title: "TAFCOP",
-      htmlTitle: "TAFCOP",
-      link: "https://tafcop.sancharsaathi.gov.in/",
-      displayLink: "tafcop.sancharsaathi.gov.in",
+      title: "9 Tailwind CSS Admin and Dashboard Templates 2023 - AdminLTE.IO",
+      htmlTitle:
+        "9 <b>Tailwind CSS</b> Admin and Dashboard Templates 2023 - AdminLTE.IO",
+      link: "https://adminlte.io/wp-content/uploads/2022/02/tailwindcss-templates.png",
+      displayLink: "adminlte.io",
       snippet:
-        "Sanchar Saathi · About · Citizen Centric Services · Keep Yourself Aware · FAQs · In Social Media · Image Gallery · Useful Links · Authorized Login.",
+        "9 Tailwind CSS Admin and Dashboard Templates 2023 - AdminLTE.IO",
       htmlSnippet:
-        "<b>Sanchar</b> Saathi &middot; About &middot; Citizen Centric Services &middot; Keep Yourself Aware &middot; FAQs &middot; In Social Media &middot; Image Gallery &middot; Useful Links &middot; Authorized Login.",
-      cacheId: "kyKt3UfJ388J",
-      formattedUrl: "https://tafcop.sancharsaathi.gov.in/",
-      htmlFormattedUrl: "https://tafcop.<b>sanchar</b>saathi.gov.in/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRpGXvP6M5vx2FUE-ksHYzylpdG9TZRcPfGzkIbI-yXyWHzmvWsuNvJCH2I",
-            width: "128",
-            height: "128",
-          },
-        ],
-        metatags: [
-          {
-            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
-            author: "C-DOT",
-            _csrf_header: "X-CSRF-TOKEN",
-            _csrf: "69c3c344-8680-430f-9262-e516ae21599e",
-            _csrf_parameter: "_csrf",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://tafcop.sancharsaathi.gov.in/telecomUser/resources/img/tafcop-citizen-centric.png",
-          },
-        ],
+        "9 <b>Tailwind CSS</b> Admin and Dashboard Templates 2023 - AdminLTE.IO",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink:
+          "https://adminlte.io/blog/tailwind-css-admin-and-dashboard-templates/",
+        height: 640,
+        width: 1200,
+        byteSize: 26296,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpmzSRmWrbSzjV0yAhbKViA3ZiOSGGFox0KNvjjDoGEeJi-FNPz-htTHk&s",
+        thumbnailHeight: 80,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: "customsearch#result",
-      title: "CEIR",
-      htmlTitle: "CEIR",
-      link: "https://ceir.sancharsaathi.gov.in/",
-      displayLink: "ceir.sancharsaathi.gov.in",
-      snippet:
-        "Sanchar Saathi · India GOV · India G20 · Azadi Mahotsav · Swach Bharat · Go to home ... Sanchar Saathi · Block Stolen/Lost Mobile · Un-Block Found Mobile · Check ...",
-      htmlSnippet:
-        "<b>Sanchar</b> Saathi &middot; India GOV &middot; India G20 &middot; Azadi Mahotsav &middot; Swach Bharat &middot; Go to home ... <b>Sanchar</b> Saathi &middot; Block Stolen/Lost Mobile &middot; Un-Block Found Mobile &middot; Check&nbsp;...",
-      cacheId: "sVUzIeaH4WMJ",
-      formattedUrl: "https://ceir.sancharsaathi.gov.in/",
-      htmlFormattedUrl: "https://ceir.<b>sanchar</b>saathi.gov.in/",
-      pagemap: {
-        metatags: [
-          {
-            viewport: "width=device-width, initial-scale=1.0",
-          },
-        ],
+      title: "tailwindcss | Figma Community",
+      htmlTitle: "<b>tailwindcss</b> | Figma Community",
+      link: "https://s3-alpha.figma.com/hub/file/2603959525/8e909c88-4e83-4af4-b5b2-4a50a9b571f7-cover.png",
+      displayLink: "www.figma.com",
+      snippet: "tailwindcss | Figma Community",
+      htmlSnippet: "<b>tailwindcss</b> | Figma Community",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink:
+          "https://www.figma.com/community/file/1275932116779605123/tailwindcss",
+        height: 960,
+        width: 1600,
+        byteSize: 127297,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWIe74nV6stunf-1GUe66vc7FjOAUTXSBkn9d5BVF2kDPIhM770H7J1Ls&s",
+        thumbnailHeight: 90,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: "customsearch#result",
       title:
-        "Black Salt (Iodised salt / kala namak / sanchar) - 200g ... - Amazon.com",
+        "Three Ways to Configure TailwindCSS with Vanilla HTML & JS | by ...",
       htmlTitle:
-        "Black Salt (Iodised salt / kala namak / sanchar) - 200g ... - Amazon.com",
-      link: "https://www.amazon.com/Black-Salt-Iodised-namak-sanchar/dp/B00PWN12DY",
-      displayLink: "www.amazon.com",
+        "Three Ways to Configure <b>TailwindCSS</b> with Vanilla HTML &amp; JS | by ...",
+      link: "https://miro.medium.com/v2/resize:fit:644/1*d7Xs5RnaqcQtKzbNrAOAYA.png",
+      displayLink: "blog.devgenius.io",
       snippet:
-        "Amazon.com : Black Salt (Iodised salt / kala namak / sanchar) - 200g : Grocery & Gourmet Food.",
+        "Three Ways to Configure TailwindCSS with Vanilla HTML & JS | by ...",
       htmlSnippet:
-        "Amazon.com : Black Salt (Iodised salt / kala namak / <b>sanchar</b>) - 200g : Grocery &amp; Gourmet Food.",
-      cacheId: "-SPqa7HdNsYJ",
-      formattedUrl:
-        "https://www.amazon.com/Black-Salt-Iodised...sanchar/dp/B00PWN12DY",
-      htmlFormattedUrl:
-        "https://www.amazon.com/Black-Salt-Iodised...<b>sanchar</b>/dp/B00PWN12DY",
-      pagemap: {
-        scraped: [
-          {
-            image_link:
-              "https://m.media-amazon.com/images/I/51n-BSyX9ML._AC_UF1000,1000_QL80_.jpg",
-          },
-        ],
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRstnaH3dzL6yyuYsD2oRF0WbiLSBBpBb9EUM3PbUr5EQaO7NoOd2S7P7o",
-            width: "233",
-            height: "216",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://m.media-amazon.com/images/I/51n-BSyX9ML._SR600%2c315_PIWhiteStrip%2cBottomLeft%2c0%2c35_PIStarRatingFOURANDHALF%2cBottomLeft%2c360%2c-6_SR600%2c315_ZA66%2c445%2c290%2c400%2c400%2cAmazonEmberBold%2c12%2c4%2c0%2c0%2c5_SCLZZZZZZZ_FMpng_BG255%2c255%2c255.jpg",
-            "theme-color": "#131921",
-            viewport:
-              "width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1, user-scalable=no, shrink-to-fit=no",
-            "og:title":
-              "Black Salt (Iodised salt / kala namak / sanchar) - 200g",
-            "og:url": "https://www.amazon.com/dp/B00PWN12DY/ref=tsm_1_fb_lk",
-            title:
-              "Amazon.com : Black Salt (Iodised salt / kala namak / sanchar) - 200g : Grocery & Gourmet Food",
-            "og:description":
-              "Black Salt (Light Pinkish Purple In Colour). Has Many Names To It. This Is An Authentic Spice Which Is Used In Many Dishes. Used To Give Food A Bit Of A Different Taste To Normal Salt.",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://m.media-amazon.com/images/I/51n-BSyX9ML._AC_UF1000,1000_QL80_.jpg",
-          },
-        ],
+        "Three Ways to Configure <b>TailwindCSS</b> with Vanilla HTML &amp; JS | by ...",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink:
+          "https://blog.devgenius.io/three-ways-to-configure-tailwindcss-with-vanilla-html-js-7175e1b8758a",
+        height: 210,
+        width: 644,
+        byteSize: 5307,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh7fTD8TbO7PmPTKVbx6Z-xqLewdX9g3vGkPcE4UXfW-z1znCQk7gQTgE&s",
+        thumbnailHeight: 45,
+        thumbnailWidth: 137,
       },
     },
     {
       kind: "customsearch#result",
-      title: "CEIR IMEI Verification",
-      htmlTitle: "CEIR IMEI Verification",
-      link: "https://ceir.sancharsaathi.gov.in/Device/CeirImeiVerification.jsp",
-      displayLink: "ceir.sancharsaathi.gov.in",
-      snippet:
-        "Sanchar Saathi. India GOV. India G20. Azadi Mahotsav. Swach Bharat. Sanchar Saathi · India GOV · India G20 · Azadi Mahotsav · Swach Bharat · Go to home. CEIR ...",
-      htmlSnippet:
-        "<b>Sanchar</b> Saathi. India GOV. India G20. Azadi Mahotsav. Swach Bharat. <b>Sanchar</b> Saathi &middot; India GOV &middot; India G20 &middot; Azadi Mahotsav &middot; Swach Bharat &middot; Go to home. CEIR&nbsp;...",
-      cacheId: "ZWRsGHV8E2UJ",
-      formattedUrl:
-        "https://ceir.sancharsaathi.gov.in/Device/CeirImeiVerification.jsp",
-      htmlFormattedUrl:
-        "https://ceir.<b>sanchar</b>saathi.gov.in/Device/CeirImeiVerification.jsp",
-      pagemap: {
-        metatags: [
-          {
-            viewport: "width=device-width, initial-scale=1.0",
-          },
-        ],
+      title: "Tailwind CSS - GeeksforGeeks",
+      htmlTitle: "<b>Tailwind CSS</b> - GeeksforGeeks",
+      link: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230310132857/TailwindCSS.jpg",
+      displayLink: "www.geeksforgeeks.org",
+      snippet: "Tailwind CSS - GeeksforGeeks",
+      htmlSnippet: "<b>Tailwind CSS</b> - GeeksforGeeks",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://www.geeksforgeeks.org/tailwind-css/",
+        height: 470,
+        width: 1000,
+        byteSize: 38254,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1V5BJ4sZgLqxj5KQ-2TEkYTpRcWr9MA_UxK680_Hx_eR-GcELFHzZXQA&s",
+        thumbnailHeight: 70,
+        thumbnailWidth: 149,
       },
     },
     {
       kind: "customsearch#result",
-      title: "Sanchar Saathi Mobile Tracker - Apps on Google Play",
-      htmlTitle: "<b>Sanchar</b> Saathi Mobile Tracker - Apps on Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.sancharsaathi.portal&hl=en_US",
-      displayLink: "play.google.com",
-      snippet:
-        "Jun 14, 2023 ... Sanchar Saathi empowers citizens by allowing them to know the mobile connections issued in their name, get disconnected the connections not ...",
-      htmlSnippet:
-        "Jun 14, 2023 <b>...</b> <b>Sanchar</b> Saathi empowers citizens by allowing them to know the mobile connections issued in their name, get disconnected the connections not&nbsp;...",
-      cacheId: "KgiGrg2m-QcJ",
-      formattedUrl:
-        "https://play.google.com/store/apps/details?id=com.sancharsaathi.portal...",
-      htmlFormattedUrl:
-        "https://play.google.com/store/apps/details?id=com.<b>sanchar</b>saathi.portal...",
-      pagemap: {
-        offer: [
-          {
-            price: "0",
-            url: "https://play.google.com/store/apps/details?id=com.sancharsaathi.portal&rdid=com.sancharsaathi.portal&feature=md&offerId",
-          },
-        ],
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGZGW9cSRHpVEX2U3z6RfvC3Yn7uTnXdVTKfukRrlxSFajMvoDAhRED5s",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://play-lh.googleusercontent.com/_cdMlQmNczhJaCP-k6Ivfx4__pq8T9UYQkgsB62mRk2-EushR8BqdxfVkB7mxWgUNw",
-            "og:type": "website",
-            "twitter:card": "summary_large_image",
-            "twitter:title":
-              "Sanchar Saathi Mobile Tracker - Apps on Google Play",
-            "twitter:url":
-              "https://play.google.com/store/apps/details?id=com.sancharsaathi.portal&hl=en_US",
-            "appstore:developer_url": "https://tekdost.com",
-            "og:title": "Sanchar Saathi Mobile Tracker - Apps on Google Play",
-            "twitter:image":
-              "https://play-lh.googleusercontent.com/_cdMlQmNczhJaCP-k6Ivfx4__pq8T9UYQkgsB62mRk2-EushR8BqdxfVkB7mxWgUNw=w600-h300-pc0xffffff-pd",
-            "appstore:bundle_id": "com.sancharsaathi.portal",
-            referrer: "origin",
-            "twitter:site": "@GooglePlay",
-            "appstore:store_id": "com.sancharsaathi.portal",
-            viewport: "width=device-width, initial-scale=1",
-            "apple-mobile-web-app-capable": "yes",
-            "twitter:description":
-              "Find or Track Lost Mobile Phones And Sim Cards Sanchar Saathi",
-            "mobile-web-app-capable": "yes",
-            "og:url":
-              "https://play.google.com/store/apps/details?id=com.sancharsaathi.portal&hl=en_US",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://play-lh.googleusercontent.com/_cdMlQmNczhJaCP-k6Ivfx4__pq8T9UYQkgsB62mRk2-EushR8BqdxfVkB7mxWgUNw",
-          },
-        ],
+      title: "Tailwind CSS Starter Kit | Drupal.org",
+      htmlTitle: "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
+      link: "https://www.drupal.org/files/project-images/screenshot_361.png",
+      displayLink: "www.drupal.org",
+      snippet: "Tailwind CSS Starter Kit | Drupal.org",
+      htmlSnippet: "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://www.drupal.org/project/tailwindcss",
+        height: 400,
+        width: 400,
+        byteSize: 7158,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQniGOFIc0T_Pxp6gVSF0zDGIbdKfIUgHYNI0CAlwzuQr76oorrLhnj5A&s",
+        thumbnailHeight: 124,
+        thumbnailWidth: 124,
       },
     },
     {
       kind: "customsearch#result",
-      title: "SECTOR 4, PLOT 15, SANCHAR VIHAR APARTMENT, DWARKA ...",
+      title:
+        "GitHub - tailwindlabs/prettier-plugin-tailwindcss: A Prettier ...",
       htmlTitle:
-        "SECTOR 4, PLOT 15, <b>SANCHAR</b> VIHAR APARTMENT, DWARKA ...",
-      link: "https://www.google.com/mymaps/viewer?mid=17J0xLYKXM9FdZlC5YARJgkVzVS0&hl=en",
-      displayLink: "www.google.com",
+        "GitHub - tailwindlabs/prettier-plugin-<b>tailwindcss</b>: A Prettier ...",
+      link: "https://raw.githubusercontent.com/tailwindlabs/prettier-plugin-tailwindcss/main/.github/banner.jpg",
+      displayLink: "github.com",
       snippet:
-        "Oct 7, 2023 ... Any Real Estate query please call or click +91 999999 3941 https://www.dwarkaapartment.com/",
+        "GitHub - tailwindlabs/prettier-plugin-tailwindcss: A Prettier ...",
       htmlSnippet:
-        "Oct 7, 2023 <b>...</b> Any Real Estate query please call or click +91 999999 3941 https://www.dwarkaapartment.com/",
-      cacheId: "CFW5l0TedW8J",
-      formattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
-      htmlFormattedUrl: "https://www.google.com/mymaps/viewer?mid...hl=en",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSQ7DX6VbMD3T1H-XkmqiaMR-AQMrDh2F6IkXceKtpjYT5rCVAiy-HMNARo",
-            width: "221",
-            height: "228",
-          },
-        ],
-        website: [
-          {
-            image:
-              "https://www.google.com/maps/d/thumbnail?mid=17J0xLYKXM9FdZlC5YARJgkVzVS0&hl=en",
-            name: "SECTOR 4, PLOT 15, SANCHAR VIHAR APARTMENT, DWARKA - Google My Maps",
-            description:
-              "Any Real Estate query please call or click +91 999999 3941 https://www.dwarkaapartment.com/",
-            url: "https://www.google.com/maps/d/viewer?mid=17J0xLYKXM9FdZlC5YARJgkVzVS0&hl=en",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://www.google.com/maps/d/thumbnail?mid=17J0xLYKXM9FdZlC5YARJgkVzVS0&hl=en",
-            "apple-itunes-app":
-              "app-id=585027354, app-argument=comgooglemaps://?mapsurl=https://www.google.com/mymaps/viewer?mid%3D17J0xLYKXM9FdZlC5YARJgkVzVS0%26hl%3Den",
-            "og:type": "website",
-            "twitter:card": "summary_large_image",
-            "twitter:title":
-              "SECTOR 4, PLOT 15, SANCHAR VIHAR APARTMENT, DWARKA - Google My Maps",
-            "og:site_name": "Google My Maps",
-            viewport:
-              "initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width",
-            "twitter:description":
-              "Any Real Estate query please call or click\n+91 999999 3941\nhttps://www.dwarkaapartment.com/",
-            "og:title":
-              "SECTOR 4, PLOT 15, SANCHAR VIHAR APARTMENT, DWARKA - Google My Maps",
-            "og:url":
-              "https://www.google.com/maps/d/viewer?mid=17J0xLYKXM9FdZlC5YARJgkVzVS0&hl=en",
-            "og:description":
-              "Any Real Estate query please call or click\n+91 999999 3941\nhttps://www.dwarkaapartment.com/",
-            "twitter:image:src":
-              "https://www.google.com/maps/d/thumbnail?mid=17J0xLYKXM9FdZlC5YARJgkVzVS0&hl=en",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.google.com/maps/d/thumbnail?mid=17J0xLYKXM9FdZlC5YARJgkVzVS0&hl=en",
-          },
-        ],
+        "GitHub - tailwindlabs/prettier-plugin-<b>tailwindcss</b>: A Prettier ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://github.com/tailwindlabs/prettier-plugin-tailwindcss",
+        height: 819,
+        width: 2400,
+        byteSize: 88796,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_8Fs3yvwnKPx7SQRrYTmjbfBmysHKL7okjounMbmoIFR_wbXwX42xg&s",
+        thumbnailHeight: 51,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: "customsearch#result",
-      title: "Project SANCHAR",
-      htmlTitle: "Project <b>SANCHAR</b>",
-      link: "https://projectsanchar.org/",
-      displayLink: "projectsanchar.org",
+      title:
+        "GitHub - 20lives/tailwindcss-rtl: Enabling bidirectional support ...",
+      htmlTitle:
+        "GitHub - 20lives/<b>tailwindcss</b>-rtl: Enabling bidirectional support ...",
+      link: "https://repository-images.githubusercontent.com/253896588/f5315700-7aa7-11ea-9b72-7c3b13ab8eef",
+      displayLink: "github.com",
       snippet:
-        "What is SANCHAR? SANCHAR is an effort to streamline the search of health journalists by providing data and evidence from scientifically validated sources, and ...",
+        "GitHub - 20lives/tailwindcss-rtl: Enabling bidirectional support ...",
       htmlSnippet:
-        "What is <b>SANCHAR</b>? <b>SANCHAR</b> is an effort to streamline the search of health journalists by providing data and evidence from scientifically validated sources, and&nbsp;...",
-      cacheId: "wcxlySEv9Y0J",
-      formattedUrl: "https://projectsanchar.org/",
-      htmlFormattedUrl: "https://project<b>sanchar</b>.org/",
-      pagemap: {
-        metatags: [
-          {
-            viewport: "width=device-width, initial-scale=1",
-          },
-        ],
+        "GitHub - 20lives/<b>tailwindcss</b>-rtl: Enabling bidirectional support ...",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://github.com/20lives/tailwindcss-rtl",
+        height: 466,
+        width: 657,
+        byteSize: 219265,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHBhiHhVmYfQOTp_fHJ8OuIifOR3zeFZUIYxBo64TGrD7shlcKIZu_A&s",
+        thumbnailHeight: 98,
+        thumbnailWidth: 138,
       },
     },
     {
       kind: "customsearch#result",
-      title: "Sanchar Saathi Portal| National Portal of India",
-      htmlTitle: "<b>Sanchar</b> Saathi Portal| National Portal of India",
-      link: "https://www.india.gov.in/spotlight/sanchar-saathi-portal",
-      displayLink: "www.india.gov.in",
-      snippet:
-        "Jun 26, 2023 ... National Portal of India provides a single-window access to information and services that are electronically delivered from all Government ...",
-      htmlSnippet:
-        "Jun 26, 2023 <b>...</b> National Portal of India provides a single-window access to information and services that are electronically delivered from all Government&nbsp;...",
-      cacheId: "P-qF7HalSGUJ",
-      formattedUrl: "https://www.india.gov.in/spotlight/sanchar-saathi-portal",
-      htmlFormattedUrl:
-        "https://www.india.gov.in/spotlight/<b>sanchar</b>-saathi-portal",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTopHSUBmNZ7CabkU5zun9hZFGGRzLjn94IhJO90YCLImlUbuGvipWfJ8o",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            handheldfriendly: "true",
-            viewport: "width=device-width, initial-scale=1",
-            mobileoptimized: "width",
-            title: "National Portal of India",
-            lang: "English",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.india.gov.in/sites/upload_files/npi/files/newsletter/logo_share.png",
-          },
-        ],
+      title: "Tailwind CSS",
+      htmlTitle: "<b>Tailwind CSS</b>",
+      link: "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100057231108477",
+      displayLink: "www.facebook.com",
+      snippet: "Tailwind CSS",
+      htmlSnippet: "<b>Tailwind CSS</b>",
+      mime: "image/",
+      fileFormat: "image/",
+      image: {
+        contextLink: "https://www.facebook.com/tailwindcss/",
+        height: 921,
+        width: 934,
+        byteSize: 29935,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY4lXydBpam1VUvfBybY8zty1oWcCS_nbAM-R7JcEXp_KIVlbKpxugRFE&s",
+        thumbnailHeight: 145,
+        thumbnailWidth: 147,
       },
     },
   ],

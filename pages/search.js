@@ -3,6 +3,7 @@ import SearchHeader from "@/components/SearchHeader";
 import Head from "next/head";
 import SearchResults from "@/components/SearchResults";
 import { useRouter } from "next/router";
+import ImageResults from "@/components/ImageResults";
 const search = ({ results }) => {
   console.log(results);
   const router = useRouter();
@@ -13,8 +14,12 @@ const search = ({ results }) => {
       </Head>
       {/* search Header */}
       <SearchHeader />
-      {/*search Results*/}
-      <SearchResults results={results} />
+      {/*search web and images Results*/}
+      {router.query.searchType === "image" ? (
+        <ImageResults results={results} />
+      ) : (
+        <SearchResults results={results} />
+      )}
     </div>
   );
 };
